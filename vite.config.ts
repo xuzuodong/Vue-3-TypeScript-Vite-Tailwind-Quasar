@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import path from 'path'
 import eslint from '@rollup/plugin-eslint'
 import vue from '@vitejs/plugin-vue'
-import cdn from 'rollup-plugin-cdn'
 
 export default defineConfig({
     plugins: [
@@ -14,7 +13,6 @@ export default defineConfig({
             enforce: 'pre',
         },
         vue(),
-        cdn(),
     ],
     resolve: {
         alias: [
