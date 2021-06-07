@@ -1,4 +1,5 @@
-// 处理 Quasar 和 Tailwind 之间的冲突 class
+// Use `postcss-remove-declaration` to resolve Quasar and Tailwind CSS conflicts
+// Check https://github.com/quasarframework/quasar/issues/6775#issuecomment-675255237
 
 const conflictingClasses = [
   // flex must be treated separately
