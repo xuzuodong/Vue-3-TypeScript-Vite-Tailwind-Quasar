@@ -8,7 +8,9 @@
     "lint": "eslint src/**/*.vue src/**/*.ts 'src/**/*.d.ts'"
   },
   "dependencies": {
+    "@quasar/extras": "^1.10.6",
     "axios": "^0.21.1",
+    "quasar": "^2.0.0-beta.19",
     "vue": "^3.0.5",
     "vue-router": "^4.0.8"
   },
@@ -28,6 +30,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.9.0",
     "postcss": "^8.3.0",
+    "postcss-remove-declaration": "^1.0.0",
     "prettier": "^2.3.0",
     "sass": "^1.34.0",
     "tailwindcss": "^2.1.3",
